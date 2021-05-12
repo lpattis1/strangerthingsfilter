@@ -1,0 +1,302 @@
+.container {
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170vh;
+    width: 100%;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .search-box {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vh;
+        margin-bottom: 3rem;
+
+        .search {
+            padding: 2rem 14rem;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .fa-search {
+            font-size: 2.5rem;
+            background: #a019196e;
+            padding: 2rem;
+            position: relative;
+            top: 0.3rem;
+        }
+    }
+
+    .lights-letters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .lights {
+            display: flex;
+
+            .light {
+                height: 3rem;
+                width: 2rem;
+                margin-right: 1.3rem;
+                background: yellow;
+                border-bottom-left-radius: 25rem;
+                border-bottom-right-radius: 25rem;
+            }
+
+            .light-active {
+                
+                border: .3rem solid white;
+            }
+
+            .l-one {
+                background: red;
+            }
+
+            .l-two {
+                background: blue;
+            }
+
+            .l-three {
+                background: green;
+            }
+
+            .l-four {
+                background: #d127a7;
+            }
+
+            .l-five {
+                background: orange;
+            }
+
+            .l-six {
+                background: purple;
+            }
+
+            .l-seven {
+                background: red;
+            }
+
+            .l-eight {
+                background: blue;
+            }
+
+            .l-nine {
+                background: green;
+            }
+
+            .l-ten {
+                background: #d127a7;
+            }
+
+            .l-eleven {
+                background: orange;
+            }
+
+            .l-twelve {
+                background: purple;
+            }
+
+            .l-thirteen {
+                background: red;
+            }
+
+            .l-fourteen {
+                background: blue;
+            }
+
+            .l-fifteen {
+                background: green;
+            }
+
+            .l-sixteen {
+                background: #d127a7;
+            }
+
+            .l-seventeen {
+                background: orange;
+            }
+
+            .l-eighteen {
+                background: purple;
+            }
+
+            .l-nineteen {
+                background: red;
+            }
+
+            .l-twenty {
+                background: blue;
+            }
+
+            .l-twentyone {
+                background: green;
+            }
+
+            .l-twentytwo {
+                background: #d127a7;
+            }
+
+            .l-twentythree {
+                background: orange;
+            }
+
+            .l-twentyfour {
+                background: purple;
+            }
+
+            .l-twentyfive {
+                background: red;
+            }
+
+            .l-twentysix {
+                background: blue;
+            }
+        }
+
+        .letters {
+            display: flex;
+
+            .letter {
+                color: white;
+                margin-right: 1.4rem;
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .characters {
+        display: grid;
+        grid-gap: 2rem;
+        max-width: 150rem;
+        margin: auto;
+        margin-top: 5rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        .character {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 2rem;
+                background: #a019196e;
+                width: 100%;
+                padding: 2rem;
+                text-transform: uppercase;
+            }
+        }
+
+        .joyce {
+            background: url(/img/joyce.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .hopper {
+            background: url(/img/hopper.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .eleven {
+            background: url(/img/eleven.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .mike {
+            background: url(/img/mike.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .will {
+            background: url(/img/will.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .lucas {
+            background: url(/img/lucas.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .dustin {
+            background: url(/img/dustin.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .max {
+            background: url(/img/max.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .steve {
+            background: url(/img/steve.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .nancy {
+            background: url(/img/nancy.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .jonathan {
+            background: url(/img/jonathan.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        .billy {
+            background: url(/img/billy.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.hidden {
+    display: none !important;
+}

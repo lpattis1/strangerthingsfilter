@@ -1,0 +1,278 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "EB Garamond", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:focus {
+  outline-width: 0;
+}
+
+.container {
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 170vh;
+  width: 100%;
+}
+.container h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.container .search-box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  margin-bottom: 3rem;
+}
+.container .search-box .search {
+  padding: 2rem 14rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.container .search-box .fa-search {
+  font-size: 2.5rem;
+  background: #a019196e;
+  padding: 2rem;
+  position: relative;
+  top: 0.3rem;
+}
+.container .lights-letters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .lights-letters .lights {
+  display: flex;
+}
+.container .lights-letters .lights .light {
+  height: 3rem;
+  width: 2rem;
+  margin-right: 1.3rem;
+  background: yellow;
+  border-bottom-left-radius: 25rem;
+  border-bottom-right-radius: 25rem;
+}
+.container .lights-letters .lights .light-active {
+  border: 0.3rem solid white;
+}
+.container .lights-letters .lights .l-one {
+  background: red;
+}
+.container .lights-letters .lights .l-two {
+  background: blue;
+}
+.container .lights-letters .lights .l-three {
+  background: green;
+}
+.container .lights-letters .lights .l-four {
+  background: #d127a7;
+}
+.container .lights-letters .lights .l-five {
+  background: orange;
+}
+.container .lights-letters .lights .l-six {
+  background: purple;
+}
+.container .lights-letters .lights .l-seven {
+  background: red;
+}
+.container .lights-letters .lights .l-eight {
+  background: blue;
+}
+.container .lights-letters .lights .l-nine {
+  background: green;
+}
+.container .lights-letters .lights .l-ten {
+  background: #d127a7;
+}
+.container .lights-letters .lights .l-eleven {
+  background: orange;
+}
+.container .lights-letters .lights .l-twelve {
+  background: purple;
+}
+.container .lights-letters .lights .l-thirteen {
+  background: red;
+}
+.container .lights-letters .lights .l-fourteen {
+  background: blue;
+}
+.container .lights-letters .lights .l-fifteen {
+  background: green;
+}
+.container .lights-letters .lights .l-sixteen {
+  background: #d127a7;
+}
+.container .lights-letters .lights .l-seventeen {
+  background: orange;
+}
+.container .lights-letters .lights .l-eighteen {
+  background: purple;
+}
+.container .lights-letters .lights .l-nineteen {
+  background: red;
+}
+.container .lights-letters .lights .l-twenty {
+  background: blue;
+}
+.container .lights-letters .lights .l-twentyone {
+  background: green;
+}
+.container .lights-letters .lights .l-twentytwo {
+  background: #d127a7;
+}
+.container .lights-letters .lights .l-twentythree {
+  background: orange;
+}
+.container .lights-letters .lights .l-twentyfour {
+  background: purple;
+}
+.container .lights-letters .lights .l-twentyfive {
+  background: red;
+}
+.container .lights-letters .lights .l-twentysix {
+  background: blue;
+}
+.container .lights-letters .letters {
+  display: flex;
+}
+.container .lights-letters .letters .letter {
+  color: white;
+  margin-right: 1.4rem;
+  font-size: 3rem;
+}
+.container .characters {
+  display: grid;
+  grid-gap: 2rem;
+  max-width: 150rem;
+  margin: auto;
+  margin-top: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container .characters .character {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container .characters .character h2 {
+  font-size: 2rem;
+  background: #a019196e;
+  width: 100%;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+.container .characters .joyce {
+  background: url(/img/joyce.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .hopper {
+  background: url(/img/hopper.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .eleven {
+  background: url(/img/eleven.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .mike {
+  background: url(/img/mike.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .will {
+  background: url(/img/will.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .lucas {
+  background: url(/img/lucas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .dustin {
+  background: url(/img/dustin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .max {
+  background: url(/img/max.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .steve {
+  background: url(/img/steve.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .nancy {
+  background: url(/img/nancy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .jonathan {
+  background: url(/img/jonathan.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.container .characters .billy {
+  background: url(/img/billy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}/*# sourceMappingURL=main.css.map */
